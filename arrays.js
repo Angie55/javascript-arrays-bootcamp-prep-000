@@ -30,7 +30,10 @@ function destructivelyAddElementToEndOfArray(chocolateBars, Twix)
    
  }
  
- function 
+ function removeElementFromBeginningOfArray()
+ {
+   
+ }
  
  
  
