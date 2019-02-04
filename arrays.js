@@ -19,7 +19,8 @@ function destructivelyAddElementToEndOfArray(chocolateBars, Twix)
 {
  chocolateBars.push("Twix");
 }
-function destructivelyAddElementToEndOfArray()
-{
-  
-}
+ 
+ function accessElementInArray(chocolateBars, 1)
+ {
+  return chocolateBars[1];
+ }
