@@ -15,7 +15,10 @@ function addElementToEndOfArray(chocolateBars, Twix)
   [...chocolateBars, "Twix"];
 }
 
-
+function destructivelyAddElementToEndOfArray(chocolateBars, Twix)
+{
+ chocolateBars.push("Twix");
+}
 function destructivelyAddElementToEndOfArray()
 {
   
