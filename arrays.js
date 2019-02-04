@@ -25,7 +25,10 @@ function destructivelyAddElementToEndOfArray(chocolateBars, Twix)
   return chocolateBars[1];
  }
  
- 
+ function destructivelyRemoveElementFromBeginningOfArray() 
+ {
+   
+ }
  
  
  
