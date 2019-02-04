@@ -2,17 +2,17 @@ var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
 function addElementToBeginningOfArray(chocolateBars, Twix)
 {
-  chocolateBars.unshift("Twix");
+  chocolateBars= ["Twix",...chocolateBars];
 }
 
 function destructivelyAddElementToBeginningOfArray(chocolateBar, Twix)
 {
-  
+ chocolateBars.unshift("Twix");  
 }
 
-function addElementToEndOfArray()
+function addElementToEndOfArray(chocolateBars, Twix)
 {
-  
+  [...chocolateBars, "Twix"];
 }
 
 function destructivelyAddElementToEndOfArray()
